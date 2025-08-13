@@ -1,0 +1,15 @@
+name: demo _i
+
+on: push
+
+jobs:
+  onlinebookstore_buid_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout code reo -A
+        uses: actions/checkout@v4
+      - name: check out applciaiton build code
+        uses: actions/checkout@v4
+        with:  
+         repo: 'srinivasulu762/onlinebookstore'
+
