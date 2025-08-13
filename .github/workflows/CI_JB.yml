@@ -1,6 +1,7 @@
 name: demo _i
 
-on: push
+on: 
+ workflow_dispatch:
 
 jobs:
   onlinebookstore_buid_job:
